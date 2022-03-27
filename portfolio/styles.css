@@ -1,14 +1,46 @@
 body{
-	background: #eeeeee;
+	background: #fff;
 	font-family: "helvetica", "arial", san-serif;
-	}
+}
 
 #parent{
-        background: #e5e5e5;
-        width: 80%;
+        background: #eee;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;/*centers region in browser*/
         text-align: center;/*centers content in a region*/
+        padding: 5px;
         box-sizing: border-box;/*compensates for padding enlargements*/
         border-radius: 2px;
-    }
+}
+
+#header{
+        width: 80%;
+    	height: 20%;
+	    margin-left: auto;
+    	margin-right: auto;/*centers region in browser*/
+    	text-align: center;/*centers content in a region*/
+    	padding-bottom: 100px;
+    	box-sizing: border-box;
+    	border-radius: 4px;
+}
+
+#content{
+    background: #fafafa;
+    width: 80%;
+	height: 100%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;/*centers region in browser*/
+	text-align: left;/*centers content in a region*/
+	padding: 80px;
+	box-sizing: border-box;/*compensates for padding enlargements*/
+	overflow: visible;
+	border-radius: 4px;
+}
+
+
+a:link{text-decoration: none; color:#555;}
+a:visited{text-decoration: none; color:#555;}
+a:active{text-decoration: none; color:#000;}
+a:hover{text-decoration: none; color:#000;}
