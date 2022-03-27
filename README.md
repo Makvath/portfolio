@@ -1,5 +1,7 @@
 # My Portfolio
-Here is where my site is displayed.
+This is my portfolio
 
-
-This is a demonstration of learning about Github for the Advanced Web Projects course.
+## This is my work
+Project 1
+Project 2
+Project 3
