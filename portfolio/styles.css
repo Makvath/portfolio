@@ -1,0 +1,14 @@
+body{
+	background: #eeeeee;
+	font-family: "helvetica", "arial", san-serif;
+	}
+
+#parent{
+        background: #e5e5e5;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;/*centers region in browser*/
+        text-align: center;/*centers content in a region*/
+        box-sizing: border-box;/*compensates for padding enlargements*/
+        border-radius: 2px;
+    }
